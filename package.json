@@ -1,23 +1,23 @@
 {
-  "name": "spacetime-cli",
-  "version": "0.5.4",
-  "description": "Command line tools for NYC Space/Time Directory data",
+  "name": "ndjson-cli",
+  "version": "0.6.0",
+  "description": "Command line tools for NDJSON data",
   "main": "index.js",
   "bin": {
-    "spacetime-to-json": "to-json.js",
-    "spacetime-to-geojson": "to-geojson.js",
-    "spacetime-to-csv": "to-csv.js"
+    "ndjson-to-json": "to-json.js",
+    "ndjson-to-geojson": "to-geojson.js",
+    "ndjson-to-csv": "to-csv.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/nypl-spacetime/spacetime-cli.git"
+    "url": "https://github.com/bertspaan/ndjson-cli.git"
   },
   "author": "Bert Spaan",
   "license": "MIT",
   "dependencies": {
     "highland": "^2.11.1",
     "json2csv": "^3.11.5",
-    "jsonpath": "github:nypl-spacetime/jsonpath",
+    "jsonpath": "^1.0.0",
     "minimist": "^1.2.0",
     "ramda": "^0.25.0"
   }
